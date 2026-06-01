@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figure"
+  short_description: "Turn text into hand-drawn rabbit diagrams"
+  default_prompt: "Use $figure to turn this article segment or concept into a 16:9 hand-drawn rabbit illustration, matching labels to the source language."
