@@ -90,5 +90,5 @@ Antigravity：
 安裝後如要更新：
 
 ```bash
-npx skills update figure -g
+npx skills update figure-skill -g
 ```
