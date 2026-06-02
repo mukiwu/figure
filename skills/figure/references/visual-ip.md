@@ -9,7 +9,7 @@ Use a small hand-drawn rabbit as the default visual IP:
 - Do not use smiling, frowning, angry, shocked, crying, winking, or exaggerated facial expressions. The rabbit's humor and emotion must come from body pose, props, timing, and action, not from the face.
 - 兔子的視角可依構圖變化：正面、四分之三側面、側面、背影、俯視或低角度皆可。無論角度如何，臉部仍維持無表情。
 - When composing a new image, actively choose a camera angle that fits the idea, and vary it across generations. Do not repeatedly use the same side-facing or three-quarter profile when another angle would work.
-- Slim, small, lightweight body: large head, smaller torso, thin short limbs with flexible gesture lines. Do not make the rabbit stocky, muscular, bulky, or heavy. The action may look physically intense or awkward, but the body silhouette must stay light and delicate.
+- Stable body model: small, slim, lightweight editorial rabbit, not a chibi mascot. Excluding the ears, keep the rounded head about 35-40% of the full body height and the torso about 35-40%; the head should be only slightly larger than the torso, never huge. Keep shoulders narrow, torso short and gently tapered, hips small, arms and legs thin with flexible gesture lines. Do not make the rabbit stocky, muscular, bulky, barrel-chested, thick-limbed, baby-like, or top-heavy. The action may look physically intense or awkward, but the silhouette must stay light, delicate, and consistently compact.
 - Simple shirt or tiny vest with two to three small buttons when clothing helps readability.
 - Gender presentation is flexible. If the passage clearly implies a gendered role or point of view, adjust clothing, hair silhouette, posture, or small accessories subtly to match; otherwise keep the rabbit gender-neutral.
 - Curious, focused, and a little strange in an editorial way; cute is acceptable, childish is not.
@@ -18,6 +18,16 @@ Use a small hand-drawn rabbit as the default visual IP:
 - Uneven black marker/pen outlines, imperfect strokes, hand-drawn wobble.
 - Minimal facial details; no realistic fur texture.
 - Mostly black-and-white by default. Use color only as small muted clothing color blocks on the rabbit. Clothing color patches should vary naturally across images among muted dusty blue, warm gray-beige, soft sage green, muted lavender-gray, or pale clay. Do not default to green. The color blocks should feel like Korean editorial illustration patches, and must leave a thin white gap between the colored fill and the black line art. Use small hatch marks or tiny dots for blush/texture instead of color.
+
+## Character Consistency Lock
+
+When writing every rabbit prompt, include a concise consistency lock so image generation does not drift:
+
+```text
+Character consistency lock: keep the same small slim rabbit design in every image. Proportions excluding ears: rounded head 35-40% of body height, torso 35-40%, head only slightly larger than torso, narrow shoulders, tiny hips, thin arms and legs, compact lightweight silhouette. Not chibi, not babyish, not bulky, not stocky, not muscular, not thick-limbed, not giant-headed.
+```
+
+Use this lock even when the rabbit is shown from the back, side, overhead, or low angle. Camera angle and pose may vary, but the body proportions must remain recognizable.
 
 ## Composition Style
 
