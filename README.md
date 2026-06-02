@@ -61,6 +61,13 @@ Antigravity：
 ![](./assets/ig_078292d6be61dc78016a1d0426ef488191941ef7394830de4b.png)
 
 ---
+```text
+/figure PDCA 循環
+```
+
+![](./assets/pdca.png)
+
+---
 
 或者是輸入一個段落：
 
