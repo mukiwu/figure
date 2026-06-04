@@ -1,6 +1,6 @@
 # Font Label Workflow
 
-Use this optional workflow only when the user explicitly asks for stable post-processed typography. The default workflow is to render text labels directly in image-2 with the handwritten notebook label style from `image-2-prompt-template.md`.
+Use this optional workflow only when the user explicitly asks for stable post-processed typography. The default workflow is to render text labels directly in image-2 with the label style from `image-2-prompt-template.md`.
 
 ## Bundled Font
 
@@ -40,4 +40,4 @@ Example `labels.json`:
 
 ## Fallback
 
-If post-processing is not practical, include labels directly in the image prompt with the default handwritten notebook label style, but warn that exact typography and text accuracy are not guaranteed.
+If post-processing is not practical, include labels directly in the image prompt with the default label style, but warn that exact typography and text accuracy are not guaranteed.

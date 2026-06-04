@@ -32,7 +32,7 @@ Use this lock even when the rabbit is shown from the back, side, overhead, or lo
 ## Composition Style
 
 - Pure white background.
-- Loose handwritten diagram language: arrows, boxes, brackets, dotted paths, small labels, simple icons.
+- Loose diagram language: arrows, boxes, brackets, dotted paths, small labels, simple icons.
 - Black line art for the diagram and labels, with occasional light gray hatching if needed for hierarchy. Only the rabbit's clothing may have small muted color patches.
 - One image should contain one central structure. Leave out secondary systems, long checklists, and full process documentation.
 - Avoid colored diagram shapes, colored arrows, colored backgrounds, gradients, shadows, rendered 3D, glossy vector style, stock illustration style, and polished mascot branding.
