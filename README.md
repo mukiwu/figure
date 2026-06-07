@@ -46,11 +46,11 @@ npx skills add mukiwu/figure
 
 Codex：
 
-[![](./assets/ig_078292d6be61dc78016a1d030cd8ac8191b163c00826772056.png)](./assets/ig_078292d6be61dc78016a1d030cd8ac8191b163c00826772056.png)
+[![](./assets/1.png)](./assets/1.png)
 
 Antigravity：
 
-[![](./assets/guatian_lixia_1780284633691.png)](./assets/guatian_lixia_1780284633691.png)
+[![](./assets/1-1.png)](./assets/1-1.png)
 
 ---
 
@@ -58,14 +58,14 @@ Antigravity：
 /figure 三顧茅廬
 ```
 
-![](./assets/ig_078292d6be61dc78016a1d0426ef488191941ef7394830de4b.png)
+![](./assets/2.png)
 
 ---
 ```text
 /figure PDCA 循環
 ```
 
-![](./assets/pdca.png)
+![](./assets/3.png)
 
 ---
 
@@ -78,7 +78,7 @@ Antigravity：
 他點出一個違反經濟學直覺的現象：商店特價時人們搶買，但投資界價格漲時大家更愛、價格跌時大家更怕。「最危險的想法」是：「已經跌太多了，我最好在股票變壁紙前趕快脫手」——這就是讓股票破底、引發瘋狂賣壓的思維。
 ```
 
-![alt text](./assets/ig_078292d6be61dc78016a1d04dd71ec8191bf3cbf23d348389a.png)
+![](./assets/4.png)
 
 ---
 
@@ -90,7 +90,7 @@ Antigravity：
 
 這個範例生成了 6 張 shot list
 
-![](./assets/dashboard-schema-3x2-collage.png)
+![](./assets/5.png)
 
 
 ## 更新 Skill
@@ -100,3 +100,7 @@ Antigravity：
 ```bash
 npx skills update figure -g
 ```
+
+## 授權
+
+MIT License，詳見 [LICENSE](./LICENSE)。
