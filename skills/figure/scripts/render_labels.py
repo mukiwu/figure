@@ -15,14 +15,25 @@ from PIL import Image, ImageDraw, ImageFont
 
 def main() -> int:
     if len(sys.argv) not in {4, 5}:
-        print("Usage: render_labels.py <input.png> <output.png> <labels.json> [font.ttf]", file=sys.stderr)
+        print("Usage: render_labels.py <input.png> <output.png> <labels.json> <font.ttf>", file=sys.stderr)
         return 2
 
     input_path = Path(sys.argv[1])
     output_path = Path(sys.argv[2])
     labels_path = Path(sys.argv[3])
-    skill_dir = Path(__file__).resolve().parents[1]
-    font_path = Path(sys.argv[4]) if len(sys.argv) == 5 else skill_dir / "assets/fonts/ChenYuluoyan-2.0-Thin.ttf"
+    if len(sys.argv) == 5:
+        font_path = Path(sys.argv[4])
+    else:
+        print(
+            "No font provided. This skill does not bundle a font.\n"
+            "Pass a handwriting .ttf as the 4th argument, e.g.:\n"
+            "  render_labels.py input.png output.png labels.json /path/to/font.ttf",
+            file=sys.stderr,
+        )
+        return 2
+    if not font_path.exists():
+        print(f"Font not found: {font_path}", file=sys.stderr)
+        return 2
 
     image = Image.open(input_path).convert("RGBA")
     draw = ImageDraw.Draw(image)

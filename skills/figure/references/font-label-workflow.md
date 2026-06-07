@@ -2,15 +2,11 @@
 
 Use this optional workflow only when the user explicitly asks for stable post-processed typography. The default workflow is to render text labels directly in image-2 with the label style from `image-2-prompt-template.md`.
 
-## Bundled Font
+## Font (not bundled)
 
-Default font:
+This skill does not ship a font file. Post-processing is an advanced, opt-in path: use it only when the user explicitly asks for stable typography and supplies their own handwriting font. Pass the font path as the optional 4th argument to `render_labels.py`. Without it, the script exits with an error instead of silently falling back to a system font.
 
-```text
-assets/fonts/ChenYuluoyan-2.0-Thin.ttf
-```
-
-This bundled font is primarily useful for final Chinese labels when present. For English labels, prefer direct rendering unless a separate English handwriting font is added.
+A handwriting-style Chinese font (for example 辰宇落雁體 / ChenYuluoyan) reproduces the intended hand-drawn look for Chinese labels, but you must provide the `.ttf` yourself. For English labels, prefer direct rendering unless a separate English handwriting font is added.
 
 ## Workflow
 
@@ -25,7 +21,7 @@ This bundled font is primarily useful for final Chinese labels when present. For
 3. Run `scripts/render_labels.py`:
 
 ```bash
-python3 scripts/render_labels.py input.png output.png labels.json
+python3 scripts/render_labels.py input.png output.png labels.json /path/to/your-handwriting.ttf
 ```
 
 Example `labels.json`:
